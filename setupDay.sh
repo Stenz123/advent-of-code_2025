@@ -3,7 +3,7 @@
 # Input files
 mkdir ./src/main/resources/days/day"$1"
 touch ./src/main/resources/days/day"$1"/input.txt
-touch ./src/main/resources/days/day"$1"/example_input.txt
+touch ./src/main/resources/days/day"$1"/example.txt
 
 # Code files
 mkdir ./src/main/kotlin/days/day"$1"

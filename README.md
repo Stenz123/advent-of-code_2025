@@ -1,4 +1,4 @@
-# Advent of code XXXX
+# Advent of code 
 
 ## **https://adventofcode.com/**
 

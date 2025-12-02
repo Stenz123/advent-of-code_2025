@@ -75,3 +75,12 @@ object ConsoleColors {
     const val CYAN_BACKGROUND_BRIGHT: String = "\u001b[0;106m" // CYAN
     const val WHITE_BACKGROUND_BRIGHT: String = "\u001b[0;107m" // WHITE
 }
+
+fun printlnBlack(s: String)  = println(ConsoleColors.BLACK + s + ConsoleColors.RESET)
+fun printlnRed(s: String)    = println(ConsoleColors.RED + s + ConsoleColors.RESET)
+fun printlnGreen(s: String)  = println(ConsoleColors.GREEN + s + ConsoleColors.RESET)
+fun printlnYellow(s: String) = println(ConsoleColors.YELLOW + s + ConsoleColors.RESET)
+fun printlnBlue(s: String)   = println(ConsoleColors.BLUE + s + ConsoleColors.RESET)
+fun printlnPurple(s: String) = println(ConsoleColors.PURPLE + s + ConsoleColors.RESET)
+fun printlnCyan(s: String)   = println(ConsoleColors.CYAN + s + ConsoleColors.RESET)
+fun printlnWhite(s: String)  = println(ConsoleColors.WHITE + s + ConsoleColors.RESET)

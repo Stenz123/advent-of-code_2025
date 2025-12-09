@@ -1,7 +1,7 @@
 package days.day2
 
 import days.Day
-import dev.stenz.algorithms.uti.printlnRed
+import dev.stenz.algorithms.util.printlnRed
 import kotlin.math.abs
 import kotlin.math.floor
 import kotlin.math.log10

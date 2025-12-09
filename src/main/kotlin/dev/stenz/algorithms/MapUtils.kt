@@ -1,8 +1,6 @@
 package dev.stenz.algorithms.coordinate
 
-import dev.stenz.algorithms.uti.ConsoleColors
-import java.io.Console
-import kotlin.coroutines.Continuation
+import dev.stenz.algorithms.util.ConsoleColors
 import kotlin.math.max
 
 fun arrayMapFromRawString(data: String): Array<Array<String>> = arrayMapFromStringList(data.split("\n"))

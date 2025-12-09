@@ -1,4 +1,4 @@
-package dev.stenz.algorithms.uti
+package dev.stenz.algorithms.util
 
 object ConsoleColors {
 

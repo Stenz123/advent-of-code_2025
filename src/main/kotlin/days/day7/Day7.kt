@@ -6,7 +6,7 @@ import dev.stenz.algorithms.coordinate.arrayMapFromStringList
 import dev.stenz.algorithms.coordinate.draw
 import dev.stenz.algorithms.coordinate.x
 import dev.stenz.algorithms.coordinate.y
-import dev.stenz.algorithms.uti.ConsoleColors
+import dev.stenz.algorithms.util.ConsoleColors
 
 class Day7: Day(false) {
     override fun partOne(): Any {

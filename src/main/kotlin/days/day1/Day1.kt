@@ -1,11 +1,9 @@
 package days.day1
 
 import days.Day
-import dev.stenz.algorithms.uti.ConsoleColors
 import kotlin.math.abs
 import kotlin.math.ceil
 import kotlin.math.floor
-import kotlin.math.round
 
 
 class Day1 : Day(false) {

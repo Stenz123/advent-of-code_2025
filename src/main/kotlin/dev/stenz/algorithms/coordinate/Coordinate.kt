@@ -10,6 +10,9 @@ import kotlin.math.sqrt
  */
 typealias Coord = Pair<Int, Int>
 
+fun Coord(str: String, delimiter: String): Coord =
+    str.split(delimiter).map { it.trim().toInt() }.let { (x, y) -> x to y }
+
 fun Coord.x() = first
 fun Coord.y() = second
 

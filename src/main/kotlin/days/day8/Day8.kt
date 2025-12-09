@@ -4,7 +4,7 @@ import days.Day
 import dev.stenz.algorithms.coordinate.Coord3d
 import dev.stenz.algorithms.coordinate.distanceTo
 import dev.stenz.algorithms.coordinate.x
-import dev.stenz.algorithms.uti.ConsoleColors
+import dev.stenz.algorithms.util.ConsoleColors
 
 class Day8 : Day(true) {
     override fun partOne(): Any {

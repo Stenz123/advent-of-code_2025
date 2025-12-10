@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.9.0"
+    kotlin("jvm") version "2.2.21"
     application
 }
 
@@ -12,6 +12,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("org.choco-solver:choco-solver:4.10.14")
 }
 
 tasks.test {
@@ -20,6 +21,9 @@ tasks.test {
 
 kotlin {
     jvmToolchain(8)
+    compilerOptions{
+        freeCompilerArgs.add("-Xnested-type-aliases")
+    }
 }
 
 application {

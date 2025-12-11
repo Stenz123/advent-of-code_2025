@@ -40,3 +40,7 @@ bin/
 
 ## Ignore Input files
 src/main/resources/
+
+gradlew
+gradlew.bat
+gradle/wrapper/*
